@@ -57,6 +57,6 @@ jobs:
           key: ${{ secrets.AWS_EC2_KEY }}
           script: |
             docker rm -f $(docker ps -aq)
-            docker rmi -f $(docker images -q)
+            docker rmi $(docker images -q)
             docker pull ${{ secrets.DOCKER_HUB_USERNAME }}/backend
             docker run -d -p 8080:8080 ${{ secrets.DOCKER_HUB_USERNAME }}/backend
