@@ -1,0 +1,50 @@
+:hardbreaks:
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+= /api/v1
+
+== Cafe api
+
+=== Cafe 등록
+
+Request
+include::{snippets}/CafeController/save/http-request.adoc[]
+Request body
+include::{snippets}/CafeController/save/request-fields.adoc[]
+Response
+include::{snippets}/CafeController/save/http-response.adoc[]
+Response body
+include::{snippets}/CafeController/save/response-fields.adoc[]
+
+=== Cafe 전체 조회
+
+Request
+include::{snippets}/CafeController/findAll/http-request.adoc[]
+Response
+include::{snippets}/CafeController/findAll/http-response.adoc[]
+Response body
+include::{snippets}/CafeController/save/response-fields.adoc[]
+
+== Category api
+
+=== Category 등록
+
+Request
+include::{snippets}/CategoryController/
+Request body
+include::{snippets}/CategoryController/save/request-fields.adoc[]
+Response
+include::{snippets}/CategoryController/save/http-response.adoc[]
+Response body
+include::{snippets}/CategoryController/save/response-fields.adoc[]
+
+=== Category 전체 조회
+
+Request
+include::{snippets}/CategoryController/findAll/http-request.adoc[]
+Response
+include::{snippets}/CategoryController/findAll/http-response.adoc[]
+Response body
+include::{snippets}/CategoryController/save/response-fields.adoc[]
