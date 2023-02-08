@@ -1,8 +1,8 @@
 package com.project.cafearound.domain.category.controller;
 
-import com.project.cafearound.domain.category.dto.CategoryFindAllResponseDto;
-import com.project.cafearound.domain.category.dto.CategorySaveRequestDto;
-import com.project.cafearound.domain.category.dto.CategorySaveResponseDto;
+import com.project.cafearound.domain.category.controller.response.CategoryFindAllResponseDto;
+import com.project.cafearound.domain.category.controller.request.CategorySaveRequestDto;
+import com.project.cafearound.domain.category.controller.response.CategorySaveResponseDto;
 import com.project.cafearound.domain.category.service.CategoryService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;

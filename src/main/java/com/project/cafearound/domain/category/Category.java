@@ -1,4 +1,4 @@
-package com.project.cafearound.domain.category.entity;
+package com.project.cafearound.domain.category;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

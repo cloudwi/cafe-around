@@ -1,7 +1,7 @@
 package com.project.cafearound.domain.cafe.controller;
 
-import com.project.cafearound.domain.cafe.dto.request.CafeSaveRequestDto;
-import com.project.cafearound.domain.cafe.dto.response.CafeSaveResponseDto;
+import com.project.cafearound.domain.cafe.controller.request.CafeSaveRequestDto;
+import com.project.cafearound.domain.cafe.controller.response.CafeSaveResponseDto;
 import com.project.cafearound.domain.cafe.service.CafeService;
 import jakarta.validation.Valid;
 import java.util.List;

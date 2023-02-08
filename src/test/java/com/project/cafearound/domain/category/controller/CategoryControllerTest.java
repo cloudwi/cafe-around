@@ -12,7 +12,7 @@ import static org.springframework.restdocs.payload.PayloadDocumentation.response
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.project.cafearound.domain.category.dto.CategorySaveRequestDto;
+import com.project.cafearound.domain.category.controller.request.CategorySaveRequestDto;
 import com.project.cafearound.domain.category.service.CategoryService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

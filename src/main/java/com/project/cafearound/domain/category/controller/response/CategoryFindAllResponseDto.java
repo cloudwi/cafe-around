@@ -1,7 +1,6 @@
-package com.project.cafearound.domain.category.dto;
+package com.project.cafearound.domain.category.controller.response;
 
-import com.project.cafearound.domain.cafe.entity.Cafe;
-import com.project.cafearound.domain.category.entity.Category;
+import com.project.cafearound.domain.category.Category;
 import lombok.Builder;
 
 @Builder

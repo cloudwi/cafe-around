@@ -1,6 +1,6 @@
-package com.project.cafearound.domain.cafe.dto.request;
+package com.project.cafearound.domain.cafe.controller.request;
 
-import com.project.cafearound.domain.cafe.entity.Cafe;
+import com.project.cafearound.domain.cafe.Cafe;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
 

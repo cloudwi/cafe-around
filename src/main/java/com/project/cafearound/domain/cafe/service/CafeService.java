@@ -1,8 +1,8 @@
 package com.project.cafearound.domain.cafe.service;
 
-import com.project.cafearound.domain.cafe.dto.request.CafeSaveRequestDto;
-import com.project.cafearound.domain.cafe.dto.response.CafeSaveResponseDto;
-import com.project.cafearound.domain.cafe.entity.Cafe;
+import com.project.cafearound.domain.cafe.controller.request.CafeSaveRequestDto;
+import com.project.cafearound.domain.cafe.controller.response.CafeSaveResponseDto;
+import com.project.cafearound.domain.cafe.Cafe;
 import com.project.cafearound.domain.cafe.repository.CafeRepository;
 import java.util.List;
 import lombok.RequiredArgsConstructor;

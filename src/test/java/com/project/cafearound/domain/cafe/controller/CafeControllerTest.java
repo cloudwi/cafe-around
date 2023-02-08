@@ -11,9 +11,8 @@ import static org.springframework.restdocs.payload.PayloadDocumentation.requestF
 import static org.springframework.restdocs.payload.PayloadDocumentation.responseFields;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.project.cafearound.domain.cafe.dto.request.CafeSaveRequestDto;
+import com.project.cafearound.domain.cafe.controller.request.CafeSaveRequestDto;
 import com.project.cafearound.domain.cafe.service.CafeService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

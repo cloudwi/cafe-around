@@ -1,4 +1,4 @@
-package com.project.cafearound.domain.category.dto;
+package com.project.cafearound.domain.category.controller.response;
 
 import lombok.Builder;
 
