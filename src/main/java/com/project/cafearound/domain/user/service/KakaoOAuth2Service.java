@@ -6,22 +6,16 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 @Service
 @RequiredArgsConstructor
 public class KakaoOAuth2Service {
 
   private final WebClient webClient;
-  @Value("${spring.security.oauth2.client.provider.kakao.token_uri}")
-  private final String tokenUri;
-  @Value("${spring.security.oauth2.client.registration.kakao.redirect-uri}")
-  private final String redirectUri;
-  @Value("${spring.security.oauth2.client.registration.kakao.authorization-grant-type}")
-  private final String grantType;
-  @Value("${spring.security.oauth2.client.registration.kakao.client-id}")
-  private final String clientId;
+  private final String tokenUri = "https://kauth.kakao.com/oauth/token";
+  private final String redirectUri = "http://localhost:3000/oauth/kakao/callback";
+  private final String grantType = "authorization_code";
+  private final String clientId="99710e2765654da6e2b18b853f894c08";
 
   public KakaoTokenResponse getToken(String code) {
     String uri =
